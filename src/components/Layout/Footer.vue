@@ -1,8 +1,8 @@
 <template>
-  <footer class="d-flex justify-content-center">
-    <h2>Антон Красильников</h2>
-    <img class="mx-5" src="../../assets/ava.jpg" alt="avatar" />
-    <h2>
+  <footer class="d-flex justify-content-center flex-wrap">
+    <h2 class="my-3">Антон Красильников</h2>
+    <img class="mx-5 my-3" src="../../assets/ava.jpg" alt="avatar" />
+    <h2 class="my-3">
       <a href="https://github.com/kras174/vuetestapp" target="_blank"
         >Репозиторий GitHub</a
       >

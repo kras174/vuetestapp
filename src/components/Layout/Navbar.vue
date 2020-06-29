@@ -31,17 +31,20 @@ export default {
 <style lang="scss" scouped>
 .navbar {
   margin-bottom: 30px;
+  .navbar-collapse {
+    .navbar-nav {
+      text-align: center;
+    }
+  }
   .navbar-nav {
     text-align: right;
-  }
-}
-#nav {
-  padding: 5px;
-  a {
-    color: white;
-    text-decoration: none;
-    &.router-link-exact-active {
-      color: black;
+    padding: 5px;
+    a {
+      color: white;
+      text-decoration: none;
+      &.router-link-exact-active {
+        color: black;
+      }
     }
   }
 }

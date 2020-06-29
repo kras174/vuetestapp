@@ -2,8 +2,10 @@
   <div class="searchBar my-5">
     <form>
       <div class="form-group row">
-        <label for="searchBar" class="col-sm-1 col-form-label">Search</label>
-        <div class="col-sm-11">
+        <label for="searchBar" class="col-sm-3 col-md-1 col-form-label"
+          >Search</label
+        >
+        <div class="col-sm-9 col-md-11">
           <input
             type="text"
             v-model="text"
