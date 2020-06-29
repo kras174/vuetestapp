@@ -16,7 +16,7 @@ export default {
 };
 </script>
 
-<style lang="scss">
+<style lang="scss" scouped>
 footer {
   background-color: #353535;
   padding: 30px;
@@ -26,6 +26,14 @@ footer {
     height: 50px;
     border-radius: 50%;
     border: 2px solid white;
+  }
+  a {
+    color: white;
+    text-decoration: none;
+    &:hover {
+      color: white;
+      text-decoration: none;
+    }
   }
 }
 </style>

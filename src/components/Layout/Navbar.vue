@@ -39,6 +39,7 @@ export default {
   padding: 5px;
   a {
     color: white;
+    text-decoration: none;
     &.router-link-exact-active {
       color: black;
     }

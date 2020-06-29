@@ -39,9 +39,5 @@ export default {
   footer {
     flex: 0 0 auto;
   }
-  a {
-    color: white;
-    text-decoration: none;
-  }
 }
 </style>

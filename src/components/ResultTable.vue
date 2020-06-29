@@ -3,25 +3,22 @@
     <table class="table table-hover">
       <thead>
         <tr>
-          <th scope="col">Type</th>
-          <th scope="col">Column heading</th>
-          <th scope="col">Column heading</th>
+          <th scope="col">Package name</th>
+          <th scope="col">Latest version</th>
         </tr>
       </thead>
-      <tbody>
-        <tr>
-          <th scope="row">Default</th>
-          <td>Column content</td>
-          <td>Column content</td>
-        </tr>
-      </tbody>
+
+      <ResultItem />
     </table>
   </div>
 </template>
 
 <script>
+import ResultItem from "./ResultItem";
+
 export default {
   name: "ResultTable",
+  components: { ResultItem },
 };
 </script>
 
