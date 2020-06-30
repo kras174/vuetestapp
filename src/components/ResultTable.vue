@@ -12,13 +12,12 @@
             <th scope="col">Latest version</th>
           </tr>
         </thead>
-        <tbody>
-          <ResultItem
-            v-for="item in renderPage"
-            :key="item.index"
-            :item="item || []"
-          />
-        </tbody>
+
+        <ResultItem
+          v-for="item in renderPage"
+          :key="item.index"
+          :item="item || []"
+        />
       </table>
       <Paginate
         :v-model="currentPage"
@@ -72,6 +71,9 @@ export default {
       this.$router.push(`${this.$route.path}?page=${page}`);
       this.renderPage = this.allPages[page - 1] || this.allPages[0];
     },
+  },
+  updated() {
+    console.log(this.showModal);
   },
 };
 </script>
